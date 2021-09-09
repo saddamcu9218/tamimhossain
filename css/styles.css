@@ -1,0 +1,217 @@
+
+
+
+.menue li{
+position: relative;
+display: inline;
+top: 25px;
+left: 690px;
+
+}
+
+.menue li a{
+list-style-type: none;
+text-decoration: none;
+background:maroon;
+color: white;
+font-size: 15px;
+font-weight:bold;
+text-transform: uppercase;	
+padding: 10px 10px;
+border: 5px solid blue;
+}
+.menue li a:hover{
+	background: deeppink;
+}
+
+
+.banar img{
+position: absolute;
+left: 0px;
+top: 120px;
+width: 1370px;
+height: 650px;
+
+
+}.logo a img{
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	left: 25px;
+
+}
+
+.box{
+
+position: relative;
+height: 300px;
+width: 550px;
+background: blue;
+top: 750px;
+left: 50px;
+background-image: url('image/5.jpg');
+background-size: cover;
+background-position: center;
+border: 5px solid black;
+
+}
+.box:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 50%;
+	background: red;
+	transition: 2s;
+
+}
+
+.box:after{
+content: "";
+position: absolute;
+right: 0;
+top: 0;
+height: 100%;
+width: 50%;
+background: yellow;
+transition: 2s;
+
+
+}
+
+.box:hover:before{
+	width: 0px;
+	transition: 2s;
+}
+
+.box:hover:after{
+	width: 0px;
+	transition: 2s;
+}
+
+.content1{
+position: absolute;
+background: blue;
+height: 300px;
+width: 550px;
+left: 750px;
+top: 835px;
+border: 5px solid red;
+
+}
+.content1 h1{
+	position: absolute;
+	left: 75px;
+	color: white;
+	font-weight: bold;
+	
+}
+.content1 h3{
+	position: absolute;
+	color: white;
+	top: 60px;
+	left: 20px;
+}
+
+
+.box2{
+
+position: relative;
+height: 300px;
+width: 550px;
+background: blue;
+top: 850px;
+left: 50px;
+background-image: url('image/6.jpg');
+background-size: cover;
+background-position: center;
+border: 5px solid black;
+
+}
+.box2:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 50%;
+	width: 100%;
+	background:blue;
+	transition: 2s;
+
+}
+
+.box2:after{
+content: "";
+position: absolute;
+right: 0;
+bottom: 0;
+height: 50%;
+width: 100%;
+background: deeppink;
+transition: 2s;
+
+
+}
+
+.box2:hover:before{
+	height: 0px;
+	transition: 2s;
+}
+
+.box2:hover:after{
+	height: 0px;
+	transition: 2s;
+}
+
+
+
+.content2{
+position: absolute;
+background: black;
+height: 300px;
+width: 550px;
+left: 750px;
+top: 1238px;
+border: 5px solid red;
+
+}
+
+
+
+
+
+
+
+.content2 h1{
+	position: absolute;
+	left: 75px;
+	color: white;
+	font-weight: bold;
+	
+}
+.content2 h3{
+	position: absolute;
+	color: white;
+	top: 60px;
+	left: 20px;
+}
+
+.footer{
+	position: absolute;
+	top: 1580px;
+background: maroon;
+width:1350px;
+height: 100px;
+left: 0px;
+
+
+}
+.footer h4{
+	color: white;
+	position: absolute;
+	left: 30%;
+	font-size: 25px;
+	bottom: 0px;
+
+}
